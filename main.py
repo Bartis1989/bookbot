@@ -5,9 +5,6 @@ def main():
     characters = character_count(text)
     sorted_dict = sort_dict(characters)
     report = create_report(sorted_dict, book_path, words)
-    #print(text)
-   # print(words)
-    #print(characters)
     print(report)
 
 def get_book_text(path):
